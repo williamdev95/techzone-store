@@ -1,0 +1,256 @@
+/* 🌗 Tema geral */
+.App {
+  transition: all 0.4s ease;
+  min-height: 100vh;
+}
+
+.light-mode {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+}
+
+/* 🏷️ Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0078ff, #00b4d8);
+  color: white;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-wrap: wrap;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* 🔍 Barra de pesquisa */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 30px;
+  padding: 6px 15px;
+  color: #444;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* 🌞 Botão de tema */
+.theme-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg);
+}
+
+/* 🛒 Ícone do carrinho */
+.cart-icon {
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: #ff3d00;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 0.75rem;
+}
+
+/* 🛍️ Grid de produtos */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 🧩 Cartão do produto */
+.product-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.dark-mode .product-card {
+  background: #2a2a2a;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.dark-mode .product-card p {
+  color: #aaa;
+}
+
+.product-card strong {
+  display: block;
+  color: #0078ff;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+/* 🎯 Botões */
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-add {
+  background: #0078ff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-add:hover {
+  background: #005ecb;
+  transform: translateY(-2px);
+}
+
+.btn-favorite {
+  background: transparent;
+  border: 1px solid #0078ff;
+  color: #0078ff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-favorite:hover {
+  background: #0078ff;
+  color: white;
+}
+
+/* 🧾 Carrinho */
+.cart-section {
+  background: rgba(0, 120, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .cart-section {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.cart-section h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cart-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode .cart-section li {
+  background: #2a2a2a;
+}
+
+.btn-remove {
+  background: #ff3d00;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btn-remove:hover {
+  background: #d62800;
+}
+
+/* ⚙️ Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9rem;
+}
