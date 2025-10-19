@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 🛒 TechZone Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo à **TechZone Store**, uma loja virtual moderna e responsiva desenvolvida com **React (Frontend)** e **Flask (Backend)**.  
+Este projeto foi criado para demonstrar minhas habilidades em **desenvolvimento web full stack**, com foco em design limpo, interatividade e boas práticas de programação.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Funcionalidades Principais
 
-### `npm start`
+✅ Catálogo de produtos com imagens reais  
+✅ Alternância entre tema claro 🌞 e escuro 🌙  
+✅ Sistema de busca inteligente de produtos  
+✅ Botão “Adicionar ao carrinho” com animação  
+✅ Ícones modernos para favoritar e ver o carrinho  
+✅ Layout responsivo e totalmente estilizado com CSS moderno  
+✅ Integração total entre **React (frontend)** e **Flask (backend)** via API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Demonstração Visual
 
-### `npm test`
+### 💡 Tema Claro
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Tema Claro](./frontend-react/src/assets/images/telaclara.png)
 
-### `npm run build`
+### 🌙 Tema Escuro
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Tema Escuro](./frontend-react/src/assets/images/telaescura.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🐍 Backend em Flask
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Código Flask](./frontend-react/src/assets/images/python.png)
 
-### `npm run eject`
+### 🎥 Demonstração em Vídeo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📽️ [Assista ao vídeo de 30 segundos da loja](./frontend-react/src/assets/videos/loja.mp4)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧰 Tecnologias Utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Frontend**
 
-## Learn More
+- React.js ⚛️
+- Axios para consumo da API
+- CSS3 moderno e responsivo
+- React Icons (para ícones dinâmicos)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Backend**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Flask (Python) 🐍
+- SQLite (banco de dados leve e rápido)
+- Flask-CORS (para comunicação entre as partes)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ Como Executar o Projeto
 
-### Analyzing the Bundle Size
+### 🔹 1. Clonar o repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/williamdev95/techzone-store.git
+cd techzone-store
+```
