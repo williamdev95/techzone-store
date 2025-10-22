@@ -37,7 +37,7 @@ Assista à loja em funcionamento:
 
 Ou visualize o preview abaixo:
 
-<video src="./frontend-react/src/assets/videos/loja.mp4" controls width="700"></video>
+<video src="./frontend-react/src/assets/videos/loja1.mp4" controls width="700"></video>
 
 ---
 
