@@ -1,131 +1,129 @@
-<h1 align="center">🛒 Techzone Store</h1>
+# 🛍️ Techzone Store
 
-<p align="center">
-  <img src="frontend-react/src/assets/images/telaescura.png" alt="Techzone Store - Dark Theme" width="80%">
-</p>
+## 🇧🇷 Sobre o Projeto
 
-<p align="center">
-  <strong>Um e-commerce moderno e responsivo desenvolvido para demonstrar habilidades em desenvolvimento web Full Stack.</strong><br>
-  <em>A modern and responsive e-commerce project built to showcase Full Stack web development skills.</em>
-</p>
+A **Techzone Store** é uma loja virtual moderna e interativa desenvolvida com **React**, simulando a experiência completa de um e-commerce real.  
+O projeto foi criado com foco em **performance, design responsivo e experiência do usuário**, sendo ideal para demonstrar minhas habilidades em **desenvolvimento front-end profissional**.
+
+Além disso, este projeto faz parte do meu portfólio como desenvolvedor web, apresentando uma interface fluida e moderna, transições dinâmicas e modo **claro/escuro** para agradar diferentes perfis de usuários.
 
 ---
 
-## 🚀 Sobre o Projeto | About the Project
+## 🧠 Tecnologias Utilizadas
 
-**Techzone Store** é uma aplicação de e-commerce que simula uma loja de tecnologia, desenvolvida com foco em boas práticas de **frontend e backend**, desempenho e usabilidade.  
-O projeto foi criado para **exposição no portfólio** e demonstração de domínio em **integração entre tecnologias modernas**.
-
-**Techzone Store** is a tech e-commerce simulation focused on clean architecture, performance, and user experience.  
-It was built as a **portfolio project** to demonstrate **modern frontend-backend integration**.
-
----
-
-## 🧩 Tecnologias Utilizadas | Technologies Used
-
-### 💻 Frontend
-
-- React.js ⚛️
-- HTML5 & CSS3 🎨
-- JavaScript (ES6+) 🧠
-
-### ⚙️ Backend
-
-- Python 🐍
-- Flask 🌐
-- SQLite 🗃️
-
-### 📦 Outras Ferramentas
-
-- Git & GitHub 🔧
-- NPM & Node.js 📦
-- VS Code 💡
+- ⚛️ **React.js** — construção da interface interativa
+- 🎨 **CSS3** — design responsivo e estilização visual
+- 💡 **JavaScript (ES6+)** — lógica e interatividade
+- 🐍 **Python** — integração e testes de backend (conceitual)
 
 ---
 
-## 🖼️ Demonstração | Demo
+## 🌙💡 Modos de Tema
 
-### 🖥️ Interface
+O usuário pode alternar entre os modos **Claro** e **Escuro** com um simples clique, proporcionando uma experiência personalizada e confortável:
 
-<p align="center">
-  <img src="frontend-react/src/assets/images/telaclara.png" alt="Light Theme" width="80%">
-</p>
+**Modo Claro:**  
+![Tela Clara](./frontend-react/src/assets/images/telaclara.png)
 
-### 🎥 Vídeo de Demonstração | Demo Video
-
-<p align="center">
-  <video src="frontend-react/src/assets/videos/loja.mp4" width="80%" controls></video>
-</p>
+**Modo Escuro:**  
+![Tela Escura](./frontend-react/src/assets/images/telaescura.png)
 
 ---
 
-## 📁 Estrutura do Projeto | Project Structure
+## 🎬 Demonstração em Vídeo
 
-ecommerce-app/
-│
-├── backend/ # API Flask + Banco de Dados SQLite
-│ ├── app.py
-│ ├── models.py
-│ ├── routes.py
-│ └── ...
-│
-├── frontend-react/ # Aplicação React
-│ ├── src/
-│ │ ├── assets/
-│ │ │ ├── images/
-│ │ │ └── videos/
-│ │ ├── App.js
-│ │ ├── App.css
-│ │ └── ...
-│ ├── package.json
-│ └── ...
-│
-└── README.md
+Assista à loja em funcionamento:  
+📹 [Clique para assistir ao vídeo](./frontend-react/src/assets/videos/loja.mp4)
+
+Ou visualize o preview abaixo:
+
+<video src="./frontend-react/src/assets/videos/loja.mp4" controls width="700"></video>
 
 ---
 
-## ⚙️ Como Executar | How to Run
+## 🐍 Ícone de Destaque
 
-### 🔧 Backend (Flask)
+![Python](./frontend-react/src/assets/images/python.png)
 
-```bash
-cd backend
-python app.py
-```
+---
 
-💻 Frontend (React)
+## 🚀 Como Executar o Projeto
 
-cd frontend-react
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/williamdev95/techzone-store.git
+   ```
+   Acesse o diretório do projeto:
+
+cd techzone-store/frontend-react
+
+Instale as dependências:
+
 npm install
+
+Inicie o servidor local:
+
 npm start
 
-Acesse em http://localhost:3000
+O projeto abrirá automaticamente em:
 
-Access it at http://localhost:3000
+http://localhost:3000
 
-🌟 Recursos | Features
+📌 Objetivo do Projeto
 
-Interface moderna e responsiva 💡
+Este projeto foi desenvolvido com o objetivo de:
 
-Alternância de tema (claro/escuro) 🌗
+Aprimorar minhas habilidades em React e CSS moderno;
 
-Integração com API Flask 🔄
+Demonstrar boas práticas de desenvolvimento front-end;
 
-Exibição dinâmica de produtos 🛍️
+Criar um portfólio visualmente atraente e funcional;
 
-Código limpo e modular ✨
+Mostrar domínio em criação de interfaces profissionais voltadas para o usuário.
 
-👨‍💻 Desenvolvido por | Developed by
+🌎 English Version
+💻 About the Project
 
-William Cipriano
-📍 São Paulo, Brasil 🇧🇷
+Techzone Store is a modern and interactive virtual store built with React, simulating a complete real-world e-commerce experience.
+The project focuses on performance, responsive design, and user experience, showcasing my professional front-end development skills.
+
+🧰 Tech Stack
+
+⚛️ React.js — for the interactive interface
+
+🎨 CSS3 — for responsive and modern design
+
+💡 JavaScript (ES6+) — for logic and interactivity
+
+🐍 Python — conceptual backend integration
+
+🌗 Light & Dark Modes
+
+Light Mode:
+
+Dark Mode:
+
+🎥 Video Demo
+
+Watch the demo here: 📹 Click to watch
+<video src="./frontend-react/src/assets/videos/loja.mp4" controls width="700"></video>
+
+💬 About the Project
+
+“Techzone Store was developed with passion and dedication to deliver a modern, efficient, and visually engaging experience — a reflection of my journey as a web developer aiming for excellence and creativity.”
+
+📫 Contato / Contact
 
 📧 E-mail: williamcipriano344@gmail.com
 
 💼 LinkedIn: linkedin.com/in/william-cipriano-b44870383
 
-💻 GitHub: github.com/williamdev95
-
 📱 WhatsApp: +55 (11) 99706-1610
+📍 Localização: Guarulhos, SP - Brasil
 
-<p align="center">✨ Projeto criado com dedicação, aprendizado contínuo e foco em qualidade profissional ✨</p> ```
+🏁 Conclusão
+
+A Techzone Store representa um marco importante na minha evolução como desenvolvedor — unindo técnica, design e propósito.
+Sinta-se à vontade para explorar o código, enviar feedbacks e conectar-se comigo! 🚀
+
+<p align="center"> <b>Feito com ❤️ por <a href="https://www.linkedin.com/in/william-cipriano-b44870383">William Cipriano</a></b><br> <sub>Made with ❤️ in React</sub> </p> ```
